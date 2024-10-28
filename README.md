@@ -1,0 +1,1 @@
+# Machine-Learning-Assisted-Prediction-and-Synthesis-of-New-Single-Phase-High-Entropy-Oxides
