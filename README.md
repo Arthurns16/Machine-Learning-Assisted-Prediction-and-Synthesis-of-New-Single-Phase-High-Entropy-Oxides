@@ -1,3 +1,3 @@
 # Machine-Learning-Assisted-Prediction-and-Synthesis-of-New-Single-Phase-High-Entropy-Oxides
 
-Note: the data was scaled using: https://scikit-learn.org/dev/modules/generated/sklearn.preprocessing.StandardScaler.html
+This repository contains Python scripts and data to reproduce or even improve the work done in the paper "Machine Learning Assisted Prediction and Synthesis of New Single Phase High Entropy Oxides".
