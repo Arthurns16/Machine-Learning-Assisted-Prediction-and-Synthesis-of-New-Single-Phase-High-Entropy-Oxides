@@ -11,7 +11,7 @@ High-entropy oxides are a novel class of materials with promising applications i
 - **Python:** 3.11.x (recommended: 3.11.6)
 - Main dependencies are listed in `requirements.txt`.
 
-### Install (recommended)
+## Install (recommended)
 Create and activate a virtual environment, then install dependencies:
 
 ```bash
