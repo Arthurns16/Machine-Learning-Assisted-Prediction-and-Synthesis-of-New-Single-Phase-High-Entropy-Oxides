@@ -1,0 +1,1 @@
+python run_inference_improved_updated.py --bundle_dir . --input Input_Akrami_filtered.xlsx --label_col "Crystal Structure"

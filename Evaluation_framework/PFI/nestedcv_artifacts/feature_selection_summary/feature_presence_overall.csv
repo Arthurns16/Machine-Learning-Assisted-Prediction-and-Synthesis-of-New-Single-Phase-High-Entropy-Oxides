@@ -1,0 +1,46 @@
+feature,count
+atomic_en_allredroch_minimo,18
+atomic_ea_media,16
+mineral_hardness_desvio,10
+covalent_rad_emp_soma,9
+atomic_radius_soma,9
+atomic_ea_soma,8
+atomic_en_allredroch_soma,7
+mineral_hardness_maximo,6
+atomic_en_paul_minimo,6
+atomic_ea_minimo,6
+atomic_radius_calculated_media,6
+atomic_hatm_maximo,5
+poissons_ratio_maximo,5
+atomic_hatm_soma,5
+atomic_radius_calculated_minimo,5
+density_of_solid_desvio,5
+deltaCp-oxidos_desvio,4
+supercond_temp_maximo,4
+atomic_spacegroupnum_media,4
+atomic_spacegroupnum_desvio,4
+poissons_ratio_media,4
+poissons_ratio_desvio,4
+atomic_spacegroupnum_maximo,4
+deltaCp-oxidos_maximo,3
+bulk_mod_maximo,3
+van_der_waals_rad_desvio,3
+oxidacao_maximo,3
+atomic_hatm_media,3
+atomic_hatm_desvio,3
+atomic_en_allen _media,3
+atomic_hfu_soma,3
+coeff_of_lte_maximo,3
+poissons_ratio_soma,2
+atomic_en_allen _desvio,2
+entalpia-oxidos_maximo,2
+entropia-oxidos_soma,2
+atomic_radius_calculated_soma,2
+atomic_en_allen _soma,2
+electrical_resist_maximo,1
+electronegativity_ghosh_desvio,1
+vel_of_sound_minimo,1
+density_of_solid_soma,1
+density_of_solid_media,1
+atomic_hatm_minimo,1
+electronegativity_ghosh_minimo,1

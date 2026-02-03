@@ -1,0 +1,1524 @@
+{
+  "fold": 1,
+  "selected_features": {
+    "RandomForest": [
+      "deltaCp-oxidos_desvio",
+      "atomic_en_allredroch_minimo",
+      "deltaCp-oxidos_maximo",
+      "mineral_hardness_maximo",
+      "atomic_en_allredroch_soma",
+      "mineral_hardness_desvio",
+      "atomic_en_paul_minimo",
+      "bulk_mod_maximo",
+      "atomic_ea_minimo",
+      "atomic_ea_media"
+    ],
+    "GradientBoosting": [
+      "deltaCp-oxidos_desvio",
+      "atomic_ea_soma",
+      "atomic_hatm_maximo",
+      "poissons_ratio_maximo",
+      "atomic_radius_calculated_media",
+      "mineral_hardness_desvio",
+      "atomic_ea_media",
+      "van_der_waals_rad_desvio",
+      "deltaCp-oxidos_maximo",
+      "supercond_temp_maximo"
+    ],
+    "MLP": [
+      "deltaCp-oxidos_desvio",
+      "oxidacao_maximo",
+      "atomic_ea_media",
+      "electrical_resist_maximo",
+      "covalent_rad_emp_soma",
+      "atomic_en_allredroch_minimo",
+      "mineral_hardness_desvio",
+      "atomic_en_allredroch_soma",
+      "atomic_ea_soma",
+      "atomic_spacegroupnum_media"
+    ],
+    "ELM": [
+      "atomic_hatm_media",
+      "atomic_en_allredroch_minimo",
+      "atomic_hatm_soma",
+      "atomic_ea_media",
+      "bulk_mod_maximo",
+      "deltaCp-oxidos_desvio",
+      "atomic_ea_minimo",
+      "atomic_en_paul_minimo",
+      "atomic_radius_soma",
+      "mineral_hardness_desvio"
+    ]
+  },
+  "pfi_details": {
+    "RandomForest": {
+      "n_inner_folds": 5,
+      "importance_mean": {
+        "atomic_ea_minimo": 0.01558441558441558,
+        "atomic_ea_maximo": 0.0,
+        "atomic_ea_soma": 0.006363636363636358,
+        "atomic_ea_media": 0.01545454545454546,
+        "atomic_ea_desvio": 0.018398268398268428,
+        "atomic_en_allen _soma": -0.0018181818181818167,
+        "atomic_en_allen _media": 0.0,
+        "atomic_en_allen _desvio": 0.0028571428571428667,
+        "atomic_en_allredroch_minimo": 0.029307359307359317,
+        "atomic_en_allredroch_soma": 0.018441558441558453,
+        "atomic_en_paul_minimo": 0.016363636363636358,
+        "atomic_hatm_minimo": 0.013722943722943729,
+        "atomic_hatm_maximo": 0.015454545454545457,
+        "atomic_hatm_soma": 0.0009090909090909087,
+        "atomic_hatm_desvio": 0.022727272727272763,
+        "atomic_hfu_soma": 0.010227272727272743,
+        "atomic_radius_soma": 0.014545454545454533,
+        "atomic_radius_calculated_minimo": 0.0,
+        "atomic_radius_calculated_media": 0.009090909090909084,
+        "atomic_spacegroupnum_maximo": 0.0,
+        "atomic_spacegroupnum_desvio": -0.011363636363636381,
+        "coeff_of_lte_maximo": 0.0,
+        "covalent_rad_emp_soma": 0.01008658008658008,
+        "critical_temperature_maximo": 0.0,
+        "density_of_solid_soma": 0.014545454545454552,
+        "density_of_solid_media": 0.006363636363636358,
+        "density_of_solid_desvio": 0.015909090909090935,
+        "electrical_resist_maximo": 0.008181818181818176,
+        "mineral_hardness_maximo": 0.02,
+        "mineral_hardness_soma": 0.038636363636363656,
+        "mineral_hardness_desvio": 0.017045454545454548,
+        "poissons_ratio_soma": 0.0035714285714285752,
+        "poissons_ratio_media": 0.0,
+        "poissons_ratio_desvio": 0.0,
+        "supercond_temp_maximo": 0.00909090909090909,
+        "van_der_waals_rad_minimo": 0.0,
+        "van_der_waals_rad_desvio": 0.0137987012987013,
+        "vel_of_sound_minimo": 0.0,
+        "oxidacao_maximo": 0.009090909090909084,
+        "entalpia-oxidos_maximo": 0.0,
+        "entalpia-oxidos_soma": 0.0011363636363636354,
+        "electronegativity_ghosh_desvio": 0.009134199134199128,
+        "entropia-oxidos_soma": 0.005454545454545445,
+        "deltaCp-oxidos_maximo": 0.022857142857142868,
+        "deltaCp-oxidos_desvio": 0.0378787878787879,
+        "atomic_hatm_media": 0.004545454545454542,
+        "bulk_mod_maximo": 0.016071428571428563,
+        "poissons_ratio_maximo": 0.007954545454545447,
+        "atomic_spacegroupnum_media": 0.0,
+        "electronegativity_ghosh_minimo": 0.0,
+        "deltaCp-oxidos_minimo": 0.0047619047619047675,
+        "atomic_en_allredroch_media": 0.0,
+        "atomic_radius_calculated_soma": 0.0,
+        "electronegativity_ghosh_media": 0.014285714285714301
+      },
+      "presence_frac": {
+        "atomic_ea_minimo": 1.0,
+        "atomic_ea_maximo": 0.8,
+        "atomic_ea_soma": 1.0,
+        "atomic_ea_media": 1.0,
+        "atomic_ea_desvio": 0.4,
+        "atomic_en_allen _soma": 1.0,
+        "atomic_en_allen _media": 1.0,
+        "atomic_en_allen _desvio": 1.0,
+        "atomic_en_allredroch_minimo": 1.0,
+        "atomic_en_allredroch_soma": 1.0,
+        "atomic_en_paul_minimo": 1.0,
+        "atomic_hatm_minimo": 1.0,
+        "atomic_hatm_maximo": 1.0,
+        "atomic_hatm_soma": 1.0,
+        "atomic_hatm_desvio": 0.2,
+        "atomic_hfu_soma": 0.8,
+        "atomic_radius_soma": 1.0,
+        "atomic_radius_calculated_minimo": 0.4,
+        "atomic_radius_calculated_media": 1.0,
+        "atomic_spacegroupnum_maximo": 1.0,
+        "atomic_spacegroupnum_desvio": 0.8,
+        "coeff_of_lte_maximo": 1.0,
+        "covalent_rad_emp_soma": 1.0,
+        "critical_temperature_maximo": 1.0,
+        "density_of_solid_soma": 1.0,
+        "density_of_solid_media": 1.0,
+        "density_of_solid_desvio": 0.4,
+        "electrical_resist_maximo": 1.0,
+        "mineral_hardness_maximo": 1.0,
+        "mineral_hardness_soma": 0.4,
+        "mineral_hardness_desvio": 0.8,
+        "poissons_ratio_soma": 0.8,
+        "poissons_ratio_media": 1.0,
+        "poissons_ratio_desvio": 1.0,
+        "supercond_temp_maximo": 1.0,
+        "van_der_waals_rad_minimo": 0.8,
+        "van_der_waals_rad_desvio": 0.8,
+        "vel_of_sound_minimo": 1.0,
+        "oxidacao_maximo": 0.4,
+        "entalpia-oxidos_maximo": 1.0,
+        "entalpia-oxidos_soma": 0.8,
+        "electronegativity_ghosh_desvio": 1.0,
+        "entropia-oxidos_soma": 1.0,
+        "deltaCp-oxidos_maximo": 1.0,
+        "deltaCp-oxidos_desvio": 0.6,
+        "atomic_hatm_media": 0.8,
+        "bulk_mod_maximo": 0.8,
+        "poissons_ratio_maximo": 0.8,
+        "atomic_spacegroupnum_media": 0.4,
+        "electronegativity_ghosh_minimo": 0.2,
+        "deltaCp-oxidos_minimo": 0.4,
+        "atomic_en_allredroch_media": 0.2,
+        "atomic_radius_calculated_soma": 0.2,
+        "electronegativity_ghosh_media": 0.2
+      },
+      "topk_ranked": [
+        {
+          "feature": "mineral_hardness_soma",
+          "importance_mean": 0.038636363636363656,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "deltaCp-oxidos_desvio",
+          "importance_mean": 0.0378787878787879,
+          "presence_frac": 0.6
+        },
+        {
+          "feature": "atomic_en_allredroch_minimo",
+          "importance_mean": 0.029307359307359317,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "deltaCp-oxidos_maximo",
+          "importance_mean": 0.022857142857142868,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_desvio",
+          "importance_mean": 0.022727272727272763,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "mineral_hardness_maximo",
+          "importance_mean": 0.02,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allredroch_soma",
+          "importance_mean": 0.018441558441558453,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_ea_desvio",
+          "importance_mean": 0.018398268398268428,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "mineral_hardness_desvio",
+          "importance_mean": 0.017045454545454548,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_en_paul_minimo",
+          "importance_mean": 0.016363636363636358,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "bulk_mod_maximo",
+          "importance_mean": 0.016071428571428563,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "density_of_solid_desvio",
+          "importance_mean": 0.015909090909090935,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_ea_minimo",
+          "importance_mean": 0.01558441558441558,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_ea_media",
+          "importance_mean": 0.01545454545454546,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_maximo",
+          "importance_mean": 0.015454545454545457,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "density_of_solid_soma",
+          "importance_mean": 0.014545454545454552,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_soma",
+          "importance_mean": 0.014545454545454533,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electronegativity_ghosh_media",
+          "importance_mean": 0.014285714285714301,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "van_der_waals_rad_desvio",
+          "importance_mean": 0.0137987012987013,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_hatm_minimo",
+          "importance_mean": 0.013722943722943729,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hfu_soma",
+          "importance_mean": 0.010227272727272743,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "covalent_rad_emp_soma",
+          "importance_mean": 0.01008658008658008,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electronegativity_ghosh_desvio",
+          "importance_mean": 0.009134199134199128,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "supercond_temp_maximo",
+          "importance_mean": 0.00909090909090909,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_calculated_media",
+          "importance_mean": 0.009090909090909084,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "oxidacao_maximo",
+          "importance_mean": 0.009090909090909084,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "electrical_resist_maximo",
+          "importance_mean": 0.008181818181818176,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_maximo",
+          "importance_mean": 0.007954545454545447,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_ea_soma",
+          "importance_mean": 0.006363636363636358,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "density_of_solid_media",
+          "importance_mean": 0.006363636363636358,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entropia-oxidos_soma",
+          "importance_mean": 0.005454545454545445,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "deltaCp-oxidos_minimo",
+          "importance_mean": 0.0047619047619047675,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_hatm_media",
+          "importance_mean": 0.004545454545454542,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "poissons_ratio_soma",
+          "importance_mean": 0.0035714285714285752,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_en_allen _desvio",
+          "importance_mean": 0.0028571428571428667,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entalpia-oxidos_soma",
+          "importance_mean": 0.0011363636363636354,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_hatm_soma",
+          "importance_mean": 0.0009090909090909087,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _media",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_spacegroupnum_maximo",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "coeff_of_lte_maximo",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "critical_temperature_maximo",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_media",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_desvio",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "vel_of_sound_minimo",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entalpia-oxidos_maximo",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_ea_maximo",
+          "importance_mean": 0.0,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "van_der_waals_rad_minimo",
+          "importance_mean": 0.0,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_radius_calculated_minimo",
+          "importance_mean": 0.0,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_spacegroupnum_media",
+          "importance_mean": 0.0,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "electronegativity_ghosh_minimo",
+          "importance_mean": 0.0,
+          "presence_frac": 0.2
+        }
+      ]
+    },
+    "GradientBoosting": {
+      "n_inner_folds": 5,
+      "importance_mean": {
+        "atomic_ea_minimo": 0.00385281385281385,
+        "atomic_ea_maximo": 0.0,
+        "atomic_ea_soma": 0.041471861471861486,
+        "atomic_ea_media": 0.024069264069264074,
+        "atomic_ea_desvio": 0.004653679653679665,
+        "atomic_en_allen _soma": 0.003636363636363624,
+        "atomic_en_allen _media": -1.3877787807814457e-17,
+        "atomic_en_allen _desvio": 0.01692640692640694,
+        "atomic_en_allredroch_minimo": 0.018268398268398274,
+        "atomic_en_allredroch_soma": 0.017012987012987014,
+        "atomic_en_paul_minimo": 0.008181818181818182,
+        "atomic_hatm_minimo": 0.0009090909090909108,
+        "atomic_hatm_maximo": 0.03584415584415587,
+        "atomic_hatm_soma": 0.0072727272727272875,
+        "atomic_hatm_desvio": -0.04999999999999999,
+        "atomic_hfu_soma": 0.006818181818181827,
+        "atomic_radius_soma": -0.003593073593073588,
+        "atomic_radius_calculated_minimo": 0.03409090909090909,
+        "atomic_radius_calculated_media": 0.029567099567099586,
+        "atomic_spacegroupnum_maximo": 0.014805194805194826,
+        "atomic_spacegroupnum_desvio": 0.0035714285714285787,
+        "coeff_of_lte_maximo": 0.016709956709956734,
+        "covalent_rad_emp_soma": 0.007705627705627707,
+        "critical_temperature_maximo": 0.0,
+        "density_of_solid_soma": 0.0018181818181818243,
+        "density_of_solid_media": -4.8572257327350596e-18,
+        "density_of_solid_desvio": -0.013636363636363637,
+        "electrical_resist_maximo": 0.010000000000000016,
+        "mineral_hardness_maximo": 0.015454545454545474,
+        "mineral_hardness_soma": 0.03863636363636366,
+        "mineral_hardness_desvio": 0.027326839826839852,
+        "poissons_ratio_soma": 0.0011363636363636437,
+        "poissons_ratio_media": 0.006406926406926401,
+        "poissons_ratio_desvio": -0.0009090909090909094,
+        "supercond_temp_maximo": 0.021428571428571443,
+        "van_der_waals_rad_minimo": 0.0,
+        "van_der_waals_rad_desvio": 0.02343073593073595,
+        "vel_of_sound_minimo": 0.0009090909090909104,
+        "oxidacao_maximo": 0.009090909090909104,
+        "entalpia-oxidos_maximo": 0.020952380952380972,
+        "entalpia-oxidos_soma": -0.014772727272727281,
+        "electronegativity_ghosh_desvio": -0.0017748917748917788,
+        "entropia-oxidos_soma": 0.0030735930735930755,
+        "deltaCp-oxidos_maximo": 0.022424242424242437,
+        "deltaCp-oxidos_desvio": 0.06782106782106785,
+        "atomic_hatm_media": 0.0063852813852813845,
+        "bulk_mod_maximo": 0.015313852813852821,
+        "poissons_ratio_maximo": 0.03116883116883118,
+        "atomic_spacegroupnum_media": -0.004545454545454575,
+        "electronegativity_ghosh_minimo": 0.0,
+        "deltaCp-oxidos_minimo": 0.04253246753246753,
+        "atomic_en_allredroch_media": 0.0,
+        "atomic_radius_calculated_soma": 0.03333333333333336,
+        "electronegativity_ghosh_media": 0.023809523809523836
+      },
+      "presence_frac": {
+        "atomic_ea_minimo": 1.0,
+        "atomic_ea_maximo": 0.8,
+        "atomic_ea_soma": 1.0,
+        "atomic_ea_media": 1.0,
+        "atomic_ea_desvio": 0.4,
+        "atomic_en_allen _soma": 1.0,
+        "atomic_en_allen _media": 1.0,
+        "atomic_en_allen _desvio": 1.0,
+        "atomic_en_allredroch_minimo": 1.0,
+        "atomic_en_allredroch_soma": 1.0,
+        "atomic_en_paul_minimo": 1.0,
+        "atomic_hatm_minimo": 1.0,
+        "atomic_hatm_maximo": 1.0,
+        "atomic_hatm_soma": 1.0,
+        "atomic_hatm_desvio": 0.2,
+        "atomic_hfu_soma": 0.8,
+        "atomic_radius_soma": 1.0,
+        "atomic_radius_calculated_minimo": 0.4,
+        "atomic_radius_calculated_media": 1.0,
+        "atomic_spacegroupnum_maximo": 1.0,
+        "atomic_spacegroupnum_desvio": 0.8,
+        "coeff_of_lte_maximo": 1.0,
+        "covalent_rad_emp_soma": 1.0,
+        "critical_temperature_maximo": 1.0,
+        "density_of_solid_soma": 1.0,
+        "density_of_solid_media": 1.0,
+        "density_of_solid_desvio": 0.4,
+        "electrical_resist_maximo": 1.0,
+        "mineral_hardness_maximo": 1.0,
+        "mineral_hardness_soma": 0.4,
+        "mineral_hardness_desvio": 0.8,
+        "poissons_ratio_soma": 0.8,
+        "poissons_ratio_media": 1.0,
+        "poissons_ratio_desvio": 1.0,
+        "supercond_temp_maximo": 1.0,
+        "van_der_waals_rad_minimo": 0.8,
+        "van_der_waals_rad_desvio": 0.8,
+        "vel_of_sound_minimo": 1.0,
+        "oxidacao_maximo": 0.4,
+        "entalpia-oxidos_maximo": 1.0,
+        "entalpia-oxidos_soma": 0.8,
+        "electronegativity_ghosh_desvio": 1.0,
+        "entropia-oxidos_soma": 1.0,
+        "deltaCp-oxidos_maximo": 1.0,
+        "deltaCp-oxidos_desvio": 0.6,
+        "atomic_hatm_media": 0.8,
+        "bulk_mod_maximo": 0.8,
+        "poissons_ratio_maximo": 0.8,
+        "atomic_spacegroupnum_media": 0.4,
+        "electronegativity_ghosh_minimo": 0.2,
+        "deltaCp-oxidos_minimo": 0.4,
+        "atomic_en_allredroch_media": 0.2,
+        "atomic_radius_calculated_soma": 0.2,
+        "electronegativity_ghosh_media": 0.2
+      },
+      "topk_ranked": [
+        {
+          "feature": "deltaCp-oxidos_desvio",
+          "importance_mean": 0.06782106782106785,
+          "presence_frac": 0.6
+        },
+        {
+          "feature": "deltaCp-oxidos_minimo",
+          "importance_mean": 0.04253246753246753,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_ea_soma",
+          "importance_mean": 0.041471861471861486,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_soma",
+          "importance_mean": 0.03863636363636366,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_hatm_maximo",
+          "importance_mean": 0.03584415584415587,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_calculated_minimo",
+          "importance_mean": 0.03409090909090909,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_radius_calculated_soma",
+          "importance_mean": 0.03333333333333336,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "poissons_ratio_maximo",
+          "importance_mean": 0.03116883116883118,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_radius_calculated_media",
+          "importance_mean": 0.029567099567099586,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_desvio",
+          "importance_mean": 0.027326839826839852,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_ea_media",
+          "importance_mean": 0.024069264069264074,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electronegativity_ghosh_media",
+          "importance_mean": 0.023809523809523836,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "van_der_waals_rad_desvio",
+          "importance_mean": 0.02343073593073595,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "deltaCp-oxidos_maximo",
+          "importance_mean": 0.022424242424242437,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "supercond_temp_maximo",
+          "importance_mean": 0.021428571428571443,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entalpia-oxidos_maximo",
+          "importance_mean": 0.020952380952380972,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allredroch_minimo",
+          "importance_mean": 0.018268398268398274,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allredroch_soma",
+          "importance_mean": 0.017012987012987014,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _desvio",
+          "importance_mean": 0.01692640692640694,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "coeff_of_lte_maximo",
+          "importance_mean": 0.016709956709956734,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_maximo",
+          "importance_mean": 0.015454545454545474,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "bulk_mod_maximo",
+          "importance_mean": 0.015313852813852821,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_spacegroupnum_maximo",
+          "importance_mean": 0.014805194805194826,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electrical_resist_maximo",
+          "importance_mean": 0.010000000000000016,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "oxidacao_maximo",
+          "importance_mean": 0.009090909090909104,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_en_paul_minimo",
+          "importance_mean": 0.008181818181818182,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "covalent_rad_emp_soma",
+          "importance_mean": 0.007705627705627707,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_soma",
+          "importance_mean": 0.0072727272727272875,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hfu_soma",
+          "importance_mean": 0.006818181818181827,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "poissons_ratio_media",
+          "importance_mean": 0.006406926406926401,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_media",
+          "importance_mean": 0.0063852813852813845,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_ea_desvio",
+          "importance_mean": 0.004653679653679665,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_ea_minimo",
+          "importance_mean": 0.00385281385281385,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _soma",
+          "importance_mean": 0.003636363636363624,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_spacegroupnum_desvio",
+          "importance_mean": 0.0035714285714285787,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "entropia-oxidos_soma",
+          "importance_mean": 0.0030735930735930755,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "density_of_solid_soma",
+          "importance_mean": 0.0018181818181818243,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_soma",
+          "importance_mean": 0.0011363636363636437,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_hatm_minimo",
+          "importance_mean": 0.0009090909090909108,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "vel_of_sound_minimo",
+          "importance_mean": 0.0009090909090909104,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "critical_temperature_maximo",
+          "importance_mean": 0.0,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_ea_maximo",
+          "importance_mean": 0.0,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "van_der_waals_rad_minimo",
+          "importance_mean": 0.0,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "electronegativity_ghosh_minimo",
+          "importance_mean": 0.0,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "atomic_en_allredroch_media",
+          "importance_mean": 0.0,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "density_of_solid_media",
+          "importance_mean": -4.8572257327350596e-18,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _media",
+          "importance_mean": -1.3877787807814457e-17,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_desvio",
+          "importance_mean": -0.0009090909090909094,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electronegativity_ghosh_desvio",
+          "importance_mean": -0.0017748917748917788,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_soma",
+          "importance_mean": -0.003593073593073588,
+          "presence_frac": 1.0
+        }
+      ]
+    },
+    "MLP": {
+      "n_inner_folds": 5,
+      "importance_mean": {
+        "atomic_ea_minimo": 0.023116883116883105,
+        "atomic_ea_maximo": 0.0,
+        "atomic_ea_soma": 0.02748917748917749,
+        "atomic_ea_media": 0.0761038961038961,
+        "atomic_ea_desvio": 0.10119047619047619,
+        "atomic_en_allen _soma": 0.019220779220779215,
+        "atomic_en_allen _media": 0.005497835497835501,
+        "atomic_en_allen _desvio": 0.011991341991341987,
+        "atomic_en_allredroch_minimo": 0.03497835497835498,
+        "atomic_en_allredroch_soma": 0.028571428571428553,
+        "atomic_en_paul_minimo": 0.01731601731601731,
+        "atomic_hatm_minimo": 0.01454545454545455,
+        "atomic_hatm_maximo": 0.010909090909090915,
+        "atomic_hatm_soma": 0.018268398268398274,
+        "atomic_hatm_desvio": 0.10454545454545458,
+        "atomic_hfu_soma": 0.02045454545454545,
+        "atomic_radius_soma": 0.011991341991341989,
+        "atomic_radius_calculated_minimo": 0.05909090909090911,
+        "atomic_radius_calculated_media": 0.016623376623376616,
+        "atomic_spacegroupnum_maximo": 0.008268398268398269,
+        "atomic_spacegroupnum_desvio": -0.0011363636363636354,
+        "coeff_of_lte_maximo": 0.023939393939393937,
+        "covalent_rad_emp_soma": 0.043203463203463195,
+        "critical_temperature_maximo": 0.006406926406926412,
+        "density_of_solid_soma": 0.0019047619047619045,
+        "density_of_solid_media": 0.00913419913419914,
+        "density_of_solid_desvio": 0.0022727272727272752,
+        "electrical_resist_maximo": 0.06220779220779221,
+        "mineral_hardness_maximo": 0.017619047619047624,
+        "mineral_hardness_soma": 2.7755575615628914e-17,
+        "mineral_hardness_desvio": 0.029058441558441558,
+        "poissons_ratio_soma": 0.016450216450216437,
+        "poissons_ratio_media": 0.004545454545454545,
+        "poissons_ratio_desvio": 0.023679653679653686,
+        "supercond_temp_maximo": 0.027142857142857146,
+        "van_der_waals_rad_minimo": 0.0,
+        "van_der_waals_rad_desvio": 0.021969696969696972,
+        "vel_of_sound_minimo": 0.024545454545454547,
+        "oxidacao_maximo": 0.07954545454545459,
+        "entalpia-oxidos_maximo": 0.0009090909090909083,
+        "entalpia-oxidos_soma": 0.010227272727272727,
+        "electronegativity_ghosh_desvio": 0.015844155844155838,
+        "entropia-oxidos_soma": 0.01316017316017316,
+        "deltaCp-oxidos_maximo": 0.010086580086580088,
+        "deltaCp-oxidos_desvio": 0.08593073593073595,
+        "atomic_hatm_media": 0.006818181818181812,
+        "bulk_mod_maximo": 0.022727272727272724,
+        "poissons_ratio_maximo": 0.01406926406926406,
+        "atomic_spacegroupnum_media": 0.027272727272727247,
+        "electronegativity_ghosh_minimo": -0.004545454545454542,
+        "deltaCp-oxidos_minimo": 0.04469696969696967,
+        "atomic_en_allredroch_media": 0.028571428571428536,
+        "atomic_radius_calculated_soma": 0.03809523809523806,
+        "electronegativity_ghosh_media": 0.009523809523809513
+      },
+      "presence_frac": {
+        "atomic_ea_minimo": 1.0,
+        "atomic_ea_maximo": 0.8,
+        "atomic_ea_soma": 1.0,
+        "atomic_ea_media": 1.0,
+        "atomic_ea_desvio": 0.4,
+        "atomic_en_allen _soma": 1.0,
+        "atomic_en_allen _media": 1.0,
+        "atomic_en_allen _desvio": 1.0,
+        "atomic_en_allredroch_minimo": 1.0,
+        "atomic_en_allredroch_soma": 1.0,
+        "atomic_en_paul_minimo": 1.0,
+        "atomic_hatm_minimo": 1.0,
+        "atomic_hatm_maximo": 1.0,
+        "atomic_hatm_soma": 1.0,
+        "atomic_hatm_desvio": 0.2,
+        "atomic_hfu_soma": 0.8,
+        "atomic_radius_soma": 1.0,
+        "atomic_radius_calculated_minimo": 0.4,
+        "atomic_radius_calculated_media": 1.0,
+        "atomic_spacegroupnum_maximo": 1.0,
+        "atomic_spacegroupnum_desvio": 0.8,
+        "coeff_of_lte_maximo": 1.0,
+        "covalent_rad_emp_soma": 1.0,
+        "critical_temperature_maximo": 1.0,
+        "density_of_solid_soma": 1.0,
+        "density_of_solid_media": 1.0,
+        "density_of_solid_desvio": 0.4,
+        "electrical_resist_maximo": 1.0,
+        "mineral_hardness_maximo": 1.0,
+        "mineral_hardness_soma": 0.4,
+        "mineral_hardness_desvio": 0.8,
+        "poissons_ratio_soma": 0.8,
+        "poissons_ratio_media": 1.0,
+        "poissons_ratio_desvio": 1.0,
+        "supercond_temp_maximo": 1.0,
+        "van_der_waals_rad_minimo": 0.8,
+        "van_der_waals_rad_desvio": 0.8,
+        "vel_of_sound_minimo": 1.0,
+        "oxidacao_maximo": 0.4,
+        "entalpia-oxidos_maximo": 1.0,
+        "entalpia-oxidos_soma": 0.8,
+        "electronegativity_ghosh_desvio": 1.0,
+        "entropia-oxidos_soma": 1.0,
+        "deltaCp-oxidos_maximo": 1.0,
+        "deltaCp-oxidos_desvio": 0.6,
+        "atomic_hatm_media": 0.8,
+        "bulk_mod_maximo": 0.8,
+        "poissons_ratio_maximo": 0.8,
+        "atomic_spacegroupnum_media": 0.4,
+        "electronegativity_ghosh_minimo": 0.2,
+        "deltaCp-oxidos_minimo": 0.4,
+        "atomic_en_allredroch_media": 0.2,
+        "atomic_radius_calculated_soma": 0.2,
+        "electronegativity_ghosh_media": 0.2
+      },
+      "topk_ranked": [
+        {
+          "feature": "atomic_hatm_desvio",
+          "importance_mean": 0.10454545454545458,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "atomic_ea_desvio",
+          "importance_mean": 0.10119047619047619,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "deltaCp-oxidos_desvio",
+          "importance_mean": 0.08593073593073595,
+          "presence_frac": 0.6
+        },
+        {
+          "feature": "oxidacao_maximo",
+          "importance_mean": 0.07954545454545459,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_ea_media",
+          "importance_mean": 0.0761038961038961,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electrical_resist_maximo",
+          "importance_mean": 0.06220779220779221,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_calculated_minimo",
+          "importance_mean": 0.05909090909090911,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "deltaCp-oxidos_minimo",
+          "importance_mean": 0.04469696969696967,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "covalent_rad_emp_soma",
+          "importance_mean": 0.043203463203463195,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_calculated_soma",
+          "importance_mean": 0.03809523809523806,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "atomic_en_allredroch_minimo",
+          "importance_mean": 0.03497835497835498,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_desvio",
+          "importance_mean": 0.029058441558441558,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_en_allredroch_soma",
+          "importance_mean": 0.028571428571428553,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allredroch_media",
+          "importance_mean": 0.028571428571428536,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "atomic_ea_soma",
+          "importance_mean": 0.02748917748917749,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_spacegroupnum_media",
+          "importance_mean": 0.027272727272727247,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "supercond_temp_maximo",
+          "importance_mean": 0.027142857142857146,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "vel_of_sound_minimo",
+          "importance_mean": 0.024545454545454547,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "coeff_of_lte_maximo",
+          "importance_mean": 0.023939393939393937,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_desvio",
+          "importance_mean": 0.023679653679653686,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_ea_minimo",
+          "importance_mean": 0.023116883116883105,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "bulk_mod_maximo",
+          "importance_mean": 0.022727272727272724,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "van_der_waals_rad_desvio",
+          "importance_mean": 0.021969696969696972,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_hfu_soma",
+          "importance_mean": 0.02045454545454545,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_en_allen _soma",
+          "importance_mean": 0.019220779220779215,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_soma",
+          "importance_mean": 0.018268398268398274,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_maximo",
+          "importance_mean": 0.017619047619047624,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_paul_minimo",
+          "importance_mean": 0.01731601731601731,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_calculated_media",
+          "importance_mean": 0.016623376623376616,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_soma",
+          "importance_mean": 0.016450216450216437,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "electronegativity_ghosh_desvio",
+          "importance_mean": 0.015844155844155838,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_minimo",
+          "importance_mean": 0.01454545454545455,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_maximo",
+          "importance_mean": 0.01406926406926406,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "entropia-oxidos_soma",
+          "importance_mean": 0.01316017316017316,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_soma",
+          "importance_mean": 0.011991341991341989,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _desvio",
+          "importance_mean": 0.011991341991341987,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_maximo",
+          "importance_mean": 0.010909090909090915,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entalpia-oxidos_soma",
+          "importance_mean": 0.010227272727272727,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "deltaCp-oxidos_maximo",
+          "importance_mean": 0.010086580086580088,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electronegativity_ghosh_media",
+          "importance_mean": 0.009523809523809513,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "density_of_solid_media",
+          "importance_mean": 0.00913419913419914,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_spacegroupnum_maximo",
+          "importance_mean": 0.008268398268398269,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_media",
+          "importance_mean": 0.006818181818181812,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "critical_temperature_maximo",
+          "importance_mean": 0.006406926406926412,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _media",
+          "importance_mean": 0.005497835497835501,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_media",
+          "importance_mean": 0.004545454545454545,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "density_of_solid_desvio",
+          "importance_mean": 0.0022727272727272752,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "density_of_solid_soma",
+          "importance_mean": 0.0019047619047619045,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entalpia-oxidos_maximo",
+          "importance_mean": 0.0009090909090909083,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_soma",
+          "importance_mean": 2.7755575615628914e-17,
+          "presence_frac": 0.4
+        }
+      ]
+    },
+    "ELM": {
+      "n_inner_folds": 5,
+      "importance_mean": {
+        "atomic_ea_minimo": 0.051341991341991376,
+        "atomic_ea_maximo": 0.0,
+        "atomic_ea_soma": 0.02316017316017317,
+        "atomic_ea_media": 0.05601731601731604,
+        "atomic_ea_desvio": 0.09675324675324676,
+        "atomic_en_allen _soma": 0.025627705627705666,
+        "atomic_en_allen _media": 0.02406926406926409,
+        "atomic_en_allen _desvio": 0.01675324675324676,
+        "atomic_en_allredroch_minimo": 0.07316017316017319,
+        "atomic_en_allredroch_soma": 0.011168831168831184,
+        "atomic_en_paul_minimo": 0.051082251082251104,
+        "atomic_hatm_minimo": 0.028398268398268433,
+        "atomic_hatm_maximo": 0.01562770562770563,
+        "atomic_hatm_soma": 0.05610389610389612,
+        "atomic_hatm_desvio": 0.013636363636363603,
+        "atomic_hfu_soma": 0.013636363636363648,
+        "atomic_radius_soma": 0.043376623376623416,
+        "atomic_radius_calculated_minimo": 0.11136363636363637,
+        "atomic_radius_calculated_media": 0.02437229437229439,
+        "atomic_spacegroupnum_maximo": 0.005800865800865805,
+        "atomic_spacegroupnum_desvio": 0.018777056277056288,
+        "coeff_of_lte_maximo": 0.012077922077922087,
+        "covalent_rad_emp_soma": 0.01090909090909092,
+        "critical_temperature_maximo": 0.025454545454545462,
+        "density_of_solid_soma": 0.017662337662337692,
+        "density_of_solid_media": 0.021428571428571446,
+        "density_of_solid_desvio": 0.009090909090909087,
+        "electrical_resist_maximo": 0.03692640692640694,
+        "mineral_hardness_maximo": 0.026883116883116908,
+        "mineral_hardness_soma": 0.07045454545454546,
+        "mineral_hardness_desvio": 0.04074675324675327,
+        "poissons_ratio_soma": 0.02651515151515153,
+        "poissons_ratio_media": 0.03038961038961042,
+        "poissons_ratio_desvio": 0.023290043290043316,
+        "supercond_temp_maximo": 0.02484848484848487,
+        "van_der_waals_rad_minimo": 0.0,
+        "van_der_waals_rad_desvio": 0.03430735930735934,
+        "vel_of_sound_minimo": 0.024805194805194823,
+        "oxidacao_maximo": 0.004545454545454547,
+        "entalpia-oxidos_maximo": 0.01757575757575759,
+        "entalpia-oxidos_soma": 0.011363636363636383,
+        "electronegativity_ghosh_desvio": 0.022034632034632053,
+        "entropia-oxidos_soma": 0.016580086580086598,
+        "deltaCp-oxidos_maximo": 0.02978354978354981,
+        "deltaCp-oxidos_desvio": 0.053679653679653695,
+        "atomic_hatm_media": 0.08928571428571432,
+        "bulk_mod_maximo": 0.054491341991342035,
+        "poissons_ratio_maximo": 0.034145021645021686,
+        "atomic_spacegroupnum_media": 0.022727272727272763,
+        "electronegativity_ghosh_minimo": 0.050000000000000065,
+        "deltaCp-oxidos_minimo": 0.04220779220779226,
+        "atomic_en_allredroch_media": 0.04285714285714289,
+        "atomic_radius_calculated_soma": 0.03333333333333336,
+        "electronegativity_ghosh_media": 0.08095238095238098
+      },
+      "presence_frac": {
+        "atomic_ea_minimo": 1.0,
+        "atomic_ea_maximo": 0.8,
+        "atomic_ea_soma": 1.0,
+        "atomic_ea_media": 1.0,
+        "atomic_ea_desvio": 0.4,
+        "atomic_en_allen _soma": 1.0,
+        "atomic_en_allen _media": 1.0,
+        "atomic_en_allen _desvio": 1.0,
+        "atomic_en_allredroch_minimo": 1.0,
+        "atomic_en_allredroch_soma": 1.0,
+        "atomic_en_paul_minimo": 1.0,
+        "atomic_hatm_minimo": 1.0,
+        "atomic_hatm_maximo": 1.0,
+        "atomic_hatm_soma": 1.0,
+        "atomic_hatm_desvio": 0.2,
+        "atomic_hfu_soma": 0.8,
+        "atomic_radius_soma": 1.0,
+        "atomic_radius_calculated_minimo": 0.4,
+        "atomic_radius_calculated_media": 1.0,
+        "atomic_spacegroupnum_maximo": 1.0,
+        "atomic_spacegroupnum_desvio": 0.8,
+        "coeff_of_lte_maximo": 1.0,
+        "covalent_rad_emp_soma": 1.0,
+        "critical_temperature_maximo": 1.0,
+        "density_of_solid_soma": 1.0,
+        "density_of_solid_media": 1.0,
+        "density_of_solid_desvio": 0.4,
+        "electrical_resist_maximo": 1.0,
+        "mineral_hardness_maximo": 1.0,
+        "mineral_hardness_soma": 0.4,
+        "mineral_hardness_desvio": 0.8,
+        "poissons_ratio_soma": 0.8,
+        "poissons_ratio_media": 1.0,
+        "poissons_ratio_desvio": 1.0,
+        "supercond_temp_maximo": 1.0,
+        "van_der_waals_rad_minimo": 0.8,
+        "van_der_waals_rad_desvio": 0.8,
+        "vel_of_sound_minimo": 1.0,
+        "oxidacao_maximo": 0.4,
+        "entalpia-oxidos_maximo": 1.0,
+        "entalpia-oxidos_soma": 0.8,
+        "electronegativity_ghosh_desvio": 1.0,
+        "entropia-oxidos_soma": 1.0,
+        "deltaCp-oxidos_maximo": 1.0,
+        "deltaCp-oxidos_desvio": 0.6,
+        "atomic_hatm_media": 0.8,
+        "bulk_mod_maximo": 0.8,
+        "poissons_ratio_maximo": 0.8,
+        "atomic_spacegroupnum_media": 0.4,
+        "electronegativity_ghosh_minimo": 0.2,
+        "deltaCp-oxidos_minimo": 0.4,
+        "atomic_en_allredroch_media": 0.2,
+        "atomic_radius_calculated_soma": 0.2,
+        "electronegativity_ghosh_media": 0.2
+      },
+      "topk_ranked": [
+        {
+          "feature": "atomic_radius_calculated_minimo",
+          "importance_mean": 0.11136363636363637,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_ea_desvio",
+          "importance_mean": 0.09675324675324676,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_hatm_media",
+          "importance_mean": 0.08928571428571432,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "electronegativity_ghosh_media",
+          "importance_mean": 0.08095238095238098,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "atomic_en_allredroch_minimo",
+          "importance_mean": 0.07316017316017319,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_soma",
+          "importance_mean": 0.07045454545454546,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "atomic_hatm_soma",
+          "importance_mean": 0.05610389610389612,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_ea_media",
+          "importance_mean": 0.05601731601731604,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "bulk_mod_maximo",
+          "importance_mean": 0.054491341991342035,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "deltaCp-oxidos_desvio",
+          "importance_mean": 0.053679653679653695,
+          "presence_frac": 0.6
+        },
+        {
+          "feature": "atomic_ea_minimo",
+          "importance_mean": 0.051341991341991376,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_paul_minimo",
+          "importance_mean": 0.051082251082251104,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "electronegativity_ghosh_minimo",
+          "importance_mean": 0.050000000000000065,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "atomic_radius_soma",
+          "importance_mean": 0.043376623376623416,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allredroch_media",
+          "importance_mean": 0.04285714285714289,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "deltaCp-oxidos_minimo",
+          "importance_mean": 0.04220779220779226,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "mineral_hardness_desvio",
+          "importance_mean": 0.04074675324675327,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "electrical_resist_maximo",
+          "importance_mean": 0.03692640692640694,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "van_der_waals_rad_desvio",
+          "importance_mean": 0.03430735930735934,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "poissons_ratio_maximo",
+          "importance_mean": 0.034145021645021686,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_radius_calculated_soma",
+          "importance_mean": 0.03333333333333336,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "poissons_ratio_media",
+          "importance_mean": 0.03038961038961042,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "deltaCp-oxidos_maximo",
+          "importance_mean": 0.02978354978354981,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_minimo",
+          "importance_mean": 0.028398268398268433,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "mineral_hardness_maximo",
+          "importance_mean": 0.026883116883116908,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_soma",
+          "importance_mean": 0.02651515151515153,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_en_allen _soma",
+          "importance_mean": 0.025627705627705666,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "critical_temperature_maximo",
+          "importance_mean": 0.025454545454545462,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "supercond_temp_maximo",
+          "importance_mean": 0.02484848484848487,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "vel_of_sound_minimo",
+          "importance_mean": 0.024805194805194823,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_radius_calculated_media",
+          "importance_mean": 0.02437229437229439,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _media",
+          "importance_mean": 0.02406926406926409,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "poissons_ratio_desvio",
+          "importance_mean": 0.023290043290043316,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_ea_soma",
+          "importance_mean": 0.02316017316017317,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_spacegroupnum_media",
+          "importance_mean": 0.022727272727272763,
+          "presence_frac": 0.4
+        },
+        {
+          "feature": "electronegativity_ghosh_desvio",
+          "importance_mean": 0.022034632034632053,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "density_of_solid_media",
+          "importance_mean": 0.021428571428571446,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_spacegroupnum_desvio",
+          "importance_mean": 0.018777056277056288,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "density_of_solid_soma",
+          "importance_mean": 0.017662337662337692,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entalpia-oxidos_maximo",
+          "importance_mean": 0.01757575757575759,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_en_allen _desvio",
+          "importance_mean": 0.01675324675324676,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entropia-oxidos_soma",
+          "importance_mean": 0.016580086580086598,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hatm_maximo",
+          "importance_mean": 0.01562770562770563,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "atomic_hfu_soma",
+          "importance_mean": 0.013636363636363648,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_hatm_desvio",
+          "importance_mean": 0.013636363636363603,
+          "presence_frac": 0.2
+        },
+        {
+          "feature": "coeff_of_lte_maximo",
+          "importance_mean": 0.012077922077922087,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "entalpia-oxidos_soma",
+          "importance_mean": 0.011363636363636383,
+          "presence_frac": 0.8
+        },
+        {
+          "feature": "atomic_en_allredroch_soma",
+          "importance_mean": 0.011168831168831184,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "covalent_rad_emp_soma",
+          "importance_mean": 0.01090909090909092,
+          "presence_frac": 1.0
+        },
+        {
+          "feature": "density_of_solid_desvio",
+          "importance_mean": 0.009090909090909087,
+          "presence_frac": 0.4
+        }
+      ]
+    }
+  },
+  "note": "selected_features are the top-K features by mean PFI on inner-CV validation folds (after pearson filter)."
+}

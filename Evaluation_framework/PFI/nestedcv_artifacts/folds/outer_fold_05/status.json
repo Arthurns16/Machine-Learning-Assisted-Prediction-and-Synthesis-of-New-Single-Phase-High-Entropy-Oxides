@@ -1,0 +1,15 @@
+{
+  "fold": 5,
+  "state": "DONE",
+  "started_at_unix": 1768601644.5842516,
+  "finished_at_unix": 1768601901.71052,
+  "elapsed_sec": 257.1262683868408,
+  "slurm": {
+    "job_id": "89208",
+    "array_job_id": "89208",
+    "array_task_id": "5",
+    "cpus_per_task": "64",
+    "node": "gn02"
+  },
+  "n_jobs_gridsearch": 64
+}

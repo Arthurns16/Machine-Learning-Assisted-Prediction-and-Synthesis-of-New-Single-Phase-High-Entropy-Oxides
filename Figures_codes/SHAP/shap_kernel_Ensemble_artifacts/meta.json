@@ -1,0 +1,62 @@
+{
+  "model": "Ensemble",
+  "use_calibration": true,
+  "disable_calibration_flag": false,
+  "input_file": "Input_Total.xlsx",
+  "bundle_dir": ".",
+  "n_samples": 137,
+  "n_features": 13,
+  "class_names_raw": [
+    "Fluorita",
+    "Mixed",
+    "Perovskita",
+    "Pirocloro",
+    "RockSalt",
+    "Spinel"
+  ],
+  "class_names_plot": [
+    "Fluorite",
+    "Mixed",
+    "Perovskite",
+    "Pyrochlore",
+    "RockSalt",
+    "Spinel"
+  ],
+  "feature_names_raw": [
+    "atomic_ea_minimo",
+    "atomic_ea_maximo",
+    "atomic_ea_soma",
+    "atomic_en_allen _soma",
+    "atomic_en_allen _desvio",
+    "atomic_en_allredroch_minimo",
+    "atomic_hatm_minimo",
+    "atomic_spacegroupnum_maximo",
+    "atomic_spacegroupnum_desvio",
+    "electrical_resist_maximo",
+    "mineral_hardness_maximo",
+    "van_der_waals_rad_minimo",
+    "vel_of_sound_minimo"
+  ],
+  "feature_names_plot": [
+    "atomic_ea_minimum",
+    "atomic_ea_maximum",
+    "atomic_ea_sum",
+    "atomic_en_allen_sum",
+    "atomic_en_allen_std",
+    "atomic_en_allredroch_minimum",
+    "atomic_hatm_minimum",
+    "atomic_spacegroupnum_maximum",
+    "atomic_spacegroupnum_std",
+    "electrical_resist_maximum",
+    "mineral_hardness_maximum",
+    "van_der_waals_rad_minimum",
+    "vel_of_sound_minimum"
+  ],
+  "class_idx_for_violin": 0,
+  "class_name_arg": "Fluorite",
+  "class_label_plot": "Fluorite",
+  "max_display_used": 30,
+  "kernel_nsamples": "auto",
+  "background": "ALL_DATASET",
+  "notes": "Artifacts include X_raw/X_plot, predict_proba outputs, SHAP values per class, expected_value, and metadata. You can replot later (top-5, new colors, etc.) without recomputing SHAP."
+}

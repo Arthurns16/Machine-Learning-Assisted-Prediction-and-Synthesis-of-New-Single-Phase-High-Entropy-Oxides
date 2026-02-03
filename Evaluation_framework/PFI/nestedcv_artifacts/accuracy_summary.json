@@ -1,0 +1,68 @@
+{
+  "note": "Outer-test accuracy aggregated across completed folds.",
+  "n_folds_with_accuracy": 5,
+  "per_model": {
+    "RandomForest": {
+      "n": 5,
+      "mean": 0.774074074074074,
+      "std": 0.0451133835921528
+    },
+    "GradientBoosting": {
+      "n": 5,
+      "mean": 0.7664021164021163,
+      "std": 0.019744029795815136
+    },
+    "MLP": {
+      "n": 5,
+      "mean": 0.7447089947089947,
+      "std": 0.04236935814298138
+    },
+    "ELM": {
+      "n": 5,
+      "mean": 0.7814814814814814,
+      "std": 0.0492571706602607
+    },
+    "Ensemble": {
+      "n": 5,
+      "mean": 0.7957671957671957,
+      "std": 0.0404532735899
+    }
+  },
+  "per_fold": {
+    "outer_fold_01": {
+      "RandomForest": 0.7857142857142857,
+      "GradientBoosting": 0.7857142857142857,
+      "MLP": 0.7857142857142857,
+      "ELM": 0.75,
+      "Ensemble": 0.8214285714285714
+    },
+    "outer_fold_02": {
+      "RandomForest": 0.7142857142857143,
+      "GradientBoosting": 0.75,
+      "MLP": 0.6785714285714286,
+      "ELM": 0.75,
+      "Ensemble": 0.75
+    },
+    "outer_fold_03": {
+      "RandomForest": 0.7407407407407407,
+      "GradientBoosting": 0.7777777777777778,
+      "MLP": 0.7777777777777778,
+      "ELM": 0.7407407407407407,
+      "Ensemble": 0.7777777777777778
+    },
+    "outer_fold_04": {
+      "RandomForest": 0.8148148148148148,
+      "GradientBoosting": 0.7407407407407407,
+      "MLP": 0.7407407407407407,
+      "ELM": 0.8518518518518519,
+      "Ensemble": 0.8518518518518519
+    },
+    "outer_fold_05": {
+      "RandomForest": 0.8148148148148148,
+      "GradientBoosting": 0.7777777777777778,
+      "MLP": 0.7407407407407407,
+      "ELM": 0.8148148148148148,
+      "Ensemble": 0.7777777777777778
+    }
+  }
+}

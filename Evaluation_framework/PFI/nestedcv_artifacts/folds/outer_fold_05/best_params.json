@@ -1,0 +1,36 @@
+{
+  "RandomForest": {
+    "model__criterion": "entropy",
+    "model__max_depth": 5,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 12,
+    "model__n_estimators": 50
+  },
+  "GradientBoosting": {
+    "model__criterion": "friedman_mse",
+    "model__loss": "log_loss",
+    "model__max_depth": 3,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 7,
+    "model__n_estimators": 50
+  },
+  "MLP": {
+    "model__activation": "tanh",
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      30,
+      30
+    ],
+    "model__learning_rate": "constant",
+    "model__learning_rate_init": 0.001,
+    "model__max_iter": 20000,
+    "model__solver": "adam"
+  },
+  "ELM": {
+    "model__hidden_units": 400,
+    "model__activation_function": "sigmoid",
+    "model__C": 1,
+    "model__random_type": "normal",
+    "model__treinador": "solution1"
+  }
+}

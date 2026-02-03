@@ -1,0 +1,8 @@
+{
+  "calibrate_final": true,
+  "method": "sigmoid",
+  "cv": 5,
+  "min_class_count": 11,
+  "calibration_applied": true,
+  "note": "Calibrated on ALL data with internal CV."
+}

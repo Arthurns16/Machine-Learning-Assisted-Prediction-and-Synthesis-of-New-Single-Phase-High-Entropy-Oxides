@@ -1,0 +1,4 @@
+{
+  "rule": "P_ens = (P_rf + P_gb + P_mlp + onehot(argmax_elm))/4",
+  "use_calibrated_probas": true
+}

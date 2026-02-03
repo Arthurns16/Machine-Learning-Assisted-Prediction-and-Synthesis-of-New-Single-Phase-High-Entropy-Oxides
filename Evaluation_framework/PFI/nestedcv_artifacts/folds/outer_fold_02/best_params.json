@@ -1,0 +1,35 @@
+{
+  "RandomForest": {
+    "model__criterion": "gini",
+    "model__max_depth": 5,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 9,
+    "model__n_estimators": 100
+  },
+  "GradientBoosting": {
+    "model__criterion": "squared_error",
+    "model__loss": "log_loss",
+    "model__max_depth": 7,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 12,
+    "model__n_estimators": 50
+  },
+  "MLP": {
+    "model__activation": "logistic",
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      36
+    ],
+    "model__learning_rate": "constant",
+    "model__learning_rate_init": 0.001,
+    "model__max_iter": 20000,
+    "model__solver": "sgd"
+  },
+  "ELM": {
+    "model__hidden_units": 75,
+    "model__activation_function": "leaky_relu",
+    "model__C": 1,
+    "model__random_type": "uniform",
+    "model__treinador": "solution1"
+  }
+}

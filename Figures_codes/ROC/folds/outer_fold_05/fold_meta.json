@@ -1,0 +1,16 @@
+{
+  "fold": 5,
+  "best_inner_score": {
+    "RandomForest": 0.7818181818181819,
+    "GradientBoosting": 0.8090909090909092,
+    "MLP": 0.8,
+    "ELM": 0.8
+  },
+  "ensemble_rule": "P_ens=(RF+GB+MLP+onehot(ELM))/4, equal weights",
+  "calibrate_probas": false,
+  "cal_method": null,
+  "cal_cv": null,
+  "gridsearch_n_jobs": 64,
+  "elm_tuning": "manual_inner_cv_with_skip_on_errors",
+  "inner_splits_used": 5
+}

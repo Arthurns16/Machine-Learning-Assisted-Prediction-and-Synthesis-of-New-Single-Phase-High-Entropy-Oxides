@@ -1,0 +1,1 @@
+The thermodynamic data from FactSage was accessed from 'https://www.crct.polymtl.ca/reacweb_plus.php'. The thermo-ml library can be accessed at 'https://github.com/soap-tastes-ok/thermo-ml'.

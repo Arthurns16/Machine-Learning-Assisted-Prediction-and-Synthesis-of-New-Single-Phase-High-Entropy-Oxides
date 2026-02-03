@@ -1,1 +1,0 @@
-The atomic features package is from NOMAD Lab: 'https://nomad-lab.eu/nomad-lab/'.

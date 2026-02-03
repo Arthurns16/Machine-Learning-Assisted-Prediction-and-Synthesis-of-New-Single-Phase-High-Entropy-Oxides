@@ -1,0 +1,1 @@
+The Python library used for the calculations is available at 'https://mendeleev.readthedocs.io/en/stable/'.
