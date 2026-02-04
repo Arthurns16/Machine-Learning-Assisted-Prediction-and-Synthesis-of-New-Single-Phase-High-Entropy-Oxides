@@ -56,7 +56,7 @@ Below is a brief overview of the main folders in this repository. Each directory
 
 - `Evaluation_framework/`  
   Cluster-friendly model evaluation pipelines and artifacts for **nested stratified cross-validation**.  
-  If you want to recompute workflow performance metrics, run `nestedcv_finalize.py` and then submit `finalize.sbatch`.
+  If you want to recompute workflow performance metrics, run `run_folds_array.sbatch` and then `finalize.sbatch`.
   - `Evaluation_framework/Pearson/`  
     Pearson-correlation-based feature filtering/evaluation workflow and artifacts.
   - `Evaluation_framework/PFI/`  
