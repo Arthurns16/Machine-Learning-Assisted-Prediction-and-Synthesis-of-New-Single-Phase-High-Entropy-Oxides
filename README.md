@@ -43,14 +43,14 @@ pip install -r requirements.txt
 Below is a brief overview of the main folders in this repository. Each directory contains a `Usage.txt` file with minimal execution examples for the scripts.
 
 - `Dataset/`  
-  Feature-engineered input dataset. Raw data source: http://dx.doi.org/10.3390/jcs5120311
+  Feature-engineered input dataset. Raw data source: http://dx.doi.org/10.3390/jcs5120311 (Leong et al.)
 
 - `Feature_calculation/`  
   Feature engineering pipelines used to transform compositions into descriptors.
   - `Feature_calculation/Atomic_features_package/`  
     Atomic/composition-derived descriptor generation utilities. Raw data source: https://nomad-lab.eu/nomad-lab/ (NOMAD: NOvel MAterials Discovery Laboratory)
   - `Feature_calculation/Mendeleev_features/`  
-    Descriptor generation based on periodic-table properties. Raw data source: https://mendeleev.readthedocs.io/en/stable/
+    Descriptor generation based on periodic-table properties. Raw data source: https://mendeleev.readthedocs.io/en/stable/ (Mendeleev)
   - `Feature_calculation/Thermo_features/`  
     Thermodynamic descriptor workflows. Raw data source: https://factsage.com/ (FactSage)
 
@@ -63,7 +63,7 @@ Below is a brief overview of the main folders in this repository. Each directory
     Permutation Feature Importance (PFI) workflow and artifacts.
 
 - `External validation/`  
-  Scripts and artifacts for the external validation protocol. External dataset source: http://dx.doi.org/10.1016/j.mser.2021.100644
+  Scripts and artifacts for the external validation protocol. External dataset source: http://dx.doi.org/10.1016/j.mser.2021.100644 (Akrami et al.)
 
 - `Figures_codes/`  
   Code used to reproduce manuscript figures.
@@ -78,7 +78,7 @@ Below is a brief overview of the main folders in this repository. Each directory
 
   **Step-by-step inference example (fluorite prediction):**
   1. Open a terminal and go to `Prediction_framework/`.
-  2. Confirm that this folder contains the trained models and all required files.
+  2. Note that this folder contains the trained models and all required files.
   3. Note that `Inference_dataset.xlsx` contains the computed features for  
      Ce<sub>0.2</sub>La<sub>0.2</sub>Nd<sub>0.2</sub>Mg<sub>0.2</sub>Al<sub>0.2</sub>O<sub>2−δ</sub>.
   4. Following `Usage.txt`, run:
